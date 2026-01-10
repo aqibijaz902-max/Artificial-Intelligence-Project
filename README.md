@@ -20,6 +20,8 @@ The dataset contains **442 patients** and **10 features**:
 - **s6** – Blood sugar level (standardized)
 - **target** – Disease progression measurement after one year (target variable)
 
+**Dataset link:** [Diabetes Dataset (GitHub)](https://gist.github.com/boersmamarcel/4202286/raw/diabetes.csv)  
+
 The dataset is saved as **`diabetes.csv`**.
 
 ---
@@ -30,7 +32,7 @@ The dataset is saved as **`diabetes.csv`**.
    Checked the first rows, feature types, and basic statistics.
 
 2. **Data Cleaning**  
-   Since the dataset is already standardized and complete, no missing values required handling.
+   Dataset is already standardized; no missing values to handle.
 
 3. **Train-Test Split**  
    Split data into **training (75%)** and **testing (25%)** sets.
