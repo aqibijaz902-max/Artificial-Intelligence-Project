@@ -1,6 +1,9 @@
-# Diabetes Progression Prediction using Linear Regression
+# Diabetes Progression Prediction using Linear Regression 🩺💻
 
-This project predicts the progression of diabetes in patients using a machine learning model called **Linear Regression**. The model learns from patient medical data, such as age, BMI, blood pressure, cholesterol levels, and other features, to estimate the disease progression.
+This project predicts the **progression of diabetes in patients** using a machine learning model called **Linear Regression**.  
+The model learns from patient medical data, such as age, BMI, blood pressure, cholesterol levels, and other features, to estimate disease progression.
+
+This project demonstrates how **Python, Pandas, and Scikit-Learn** can be used to analyze data, train models, make predictions, and visualize results that can help in early detection of diabetes.  
 
 ---
 
@@ -8,17 +11,17 @@ This project predicts the progression of diabetes in patients using a machine le
 
 The dataset contains **442 patients** and **10 features**:
 
-- **age** – Age of the patient (standardized)
-- **sex** – Gender of the patient (standardized)
-- **bmi** – Body Mass Index (standardized)
-- **bp** – Average blood pressure (standardized)
-- **s1** – Total serum cholesterol (standardized)
-- **s2** – Low-density lipoproteins (standardized)
-- **s3** – High-density lipoproteins (standardized)
-- **s4** – Total cholesterol / HDL (standardized)
-- **s5** – Log of serum triglycerides (standardized)
-- **s6** – Blood sugar level (standardized)
-- **target** – Disease progression measurement after one year (target variable)
+- **age** – Age of the patient (standardized)  
+- **sex** – Gender of the patient (standardized)  
+- **bmi** – Body Mass Index (standardized)  
+- **bp** – Average blood pressure (standardized)  
+- **s1** – Total serum cholesterol (standardized)  
+- **s2** – Low-density lipoproteins (standardized)  
+- **s3** – High-density lipoproteins (standardized)  
+- **s4** – Total cholesterol / HDL (standardized)  
+- **s5** – Log of serum triglycerides (standardized)  
+- **s6** – Blood sugar level (standardized)  
+- **target** – Disease progression measurement after one year (target variable)  
 
 **Dataset link:** [Diabetes Dataset (GitHub)](https://gist.github.com/boersmamarcel/4202286/raw/diabetes.csv)  
 
@@ -49,7 +52,7 @@ The dataset is saved as **`diabetes.csv`**.
 
 7. **Visualization**  
    - Scatter plot comparing **Actual vs Predicted progression**  
-   - Heatmap of **Confusion Matrix**
+   - Heatmap of **Confusion Matrix**  
 
 ---
 
@@ -57,4 +60,4 @@ The dataset is saved as **`diabetes.csv`**.
 
 1. Make sure Python and required libraries are installed:  
    ```bash
-   pip install numpy pandas matplotlib scikit-learn
+   pip install numpy pandas matplotlib scikit-learn seaborn
